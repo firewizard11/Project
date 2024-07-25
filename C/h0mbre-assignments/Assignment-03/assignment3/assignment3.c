@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    
+
     // Variables
     char first[30];
     char last[30];
