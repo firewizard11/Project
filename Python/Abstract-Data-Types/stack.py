@@ -40,7 +40,7 @@ class ArrayStack(Stack[T]):
 
     def __init__(self, max_capacity: int) -> None:
         Stack.__init__(self)
-        self.array = ArrayR(max(MIN_CAPACITY, max_capacity))
+        self.array = ArrayR(max(self.MIN_CAPACITY, max_capacity))
 
     def is_full(self) -> bool:
         return len(self) == len(self.array)
