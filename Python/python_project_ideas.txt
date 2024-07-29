@@ -1,0 +1,5 @@
+**Potential Ideas**
+- Malware
+- Password Manager
+- Port Scanner
+- Music Library w/ Built in player
