@@ -1,4 +1,3 @@
-package Java.Greeter;
 import java.util.Scanner; 
 
 public class Main {
