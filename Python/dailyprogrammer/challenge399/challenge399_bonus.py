@@ -20,15 +20,8 @@ def read_file(file_name: str) -> list:
     return strings
 
 if __name__ == '__main__':
-    strings = read_file('enable1.txt')
-    map = {}
-    for string in strings:
-        map[lettersum(string)] = string
-
-    #Question Answers
-    for num in map:
-        if num == 319:
-            print(f'1. {map[num]}')
-            break
+    pass
+    #left off here
+    #something wrong with read_file (only getting 303 numbers)
 
     
