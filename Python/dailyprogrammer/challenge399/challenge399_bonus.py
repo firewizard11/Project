@@ -20,8 +20,18 @@ def read_file(file_name: str) -> list:
     return strings
 
 if __name__ == '__main__':
-    pass
-    #left off here
-    #something wrong with read_file (only getting 303 numbers)
+    strings = read_file('enable1.txt')
+    
+    #Pre Calculating Sums
+    sums = [lettersum(string) for string in strings]
+
+    #Questions
+    print(f'1. {strings[sums.index(319)]}')
+    
+    total = 0
+    for i in range(len(sums)):
+        if sums[i] % 2 != 0:
+            total += 1
+    print(f'2. {total}')
 
     
