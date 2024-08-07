@@ -32,11 +32,17 @@ def translate_to_morse(text: str) -> str:
     
     for c in text.lower():
         if c == ' ':
-            morse += ' / '
+            morse += '/'
         else:
-            morse += map[c]
+            morse += map[c] + ' '
     
     return morse
+
+def transelate_from_morse(morse: str) -> str:
+    text = ''
+    morse_letters = morse.split('/')
+    pass
+    
 
 if __name__ == '__main__':
     test_text = 'bobby'
